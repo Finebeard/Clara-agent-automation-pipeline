@@ -1,0 +1,48 @@
+Demo Call Transcript - Acme HVAC
+
+Agent: Thank you for calling Acme HVAC Services. How can I help you today?
+Caller: Hi, I'm just trying to understand how you handle calls.
+
+Owner: Sure. Our company name is Acme HVAC Services.
+Owner: Our business hours are Monday through Friday, 8 AM to 5 PM Eastern Time.
+Owner: We are usually closed on weekends except for true emergencies.
+
+Owner: Our office address is 123 Main Street, Springfield, New York 10001.
+
+Owner: We support residential and light commercial HVAC service, including:
+- furnace repair
+- air conditioning repair
+- seasonal maintenance
+- new unit installation
+
+Owner: For us, an "emergency" means:
+- no heat when the outside temperature is below 45 degrees
+- gas smell
+- sparking or smoke coming from equipment
+
+Owner: Emergency routing works like this:
+- During business hours, emergency calls should be transferred directly to the on-call technician's mobile at 555-111-2222.
+- After hours, emergency calls should first try that same technician number.
+
+Owner: Non-emergency routing:
+- During business hours, if the office line is available, transfer to the main office line at 555-000-1234.
+- If no one answers, take a message and summarize the issue.
+- After hours, always take a message for non-emergencies and mark it as next-business-day follow-up.
+
+Owner: Call transfer rules:
+- Always announce the caller's name, phone number, and brief issue when transferring.
+- If the transfer fails or no one picks up within 30 seconds, return to the caller.
+
+Owner: Integration constraints:
+- We currently do not use a CRM.
+- Please do NOT integrate with any external ticketing tools.
+- Just log the call summary in your own system and send us a daily email summary manually for now.
+
+Owner: Office-hours flow summary:
+- Greet the caller, confirm how you can help, collect their name and phone number, determine if it is an emergency, and then either transfer or take a detailed message.
+
+Owner: After-hours flow summary:
+- Greet the caller, specify that they have reached the after-hours answering service, confirm if it is an emergency, and follow the emergency vs non-emergency routing rules.
+
+Owner: That's basically how we handle calls today.
+

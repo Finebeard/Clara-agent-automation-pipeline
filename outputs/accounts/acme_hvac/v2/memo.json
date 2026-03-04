@@ -1,0 +1,38 @@
+{
+  "account_id": "acme_hvac",
+  "company_name": "Acme HVAC Services",
+  "business_hours": [
+    {
+      "day": "Saturday",
+      "start": "9 AM",
+      "end": "1 PM",
+      "timezone": "Eastern"
+    }
+  ],
+  "office_address": "still 123 Main Street, Springfield, New York 10001",
+  "services_supported": [
+    "furnace repair",
+    "air conditioning repair",
+    "seasonal maintenance",
+    "new unit installation"
+  ],
+  "emergency_definition": "- no heat when the outside temperature is below 45 degrees - gas smell - sparking or smoke coming from equipment",
+  "emergency_routing_rules": "- During business hours, emergency calls should be transferred directly to the on-call technician's mobile at 555-111-2222. - After hours, emergency calls should first try that same technician number.",
+  "non_emergency_routing_rules": "- During business hours, if the office line is available, transfer to the main office line at 555-000-1234. - If no one answers, take a message and summarize the issue. - After hours, always take a message for non-emergencies and mark it as next-business-day follow-up.",
+  "call_transfer_rules": "- Always announce the caller's name, phone number, and brief issue when transferring. - If the transfer fails or no one picks up within 30 seconds, return to the caller.",
+  "integration_constraints": "- We currently do not use a CRM. - Please do NOT integrate with any external ticketing tools. - Just log the call summary in your own system and send us a daily email summary manually for now.",
+  "after_hours_flow_summary": "- Greet the caller, specify that they have reached the after-hours answering service, confirm if it is an emergency, and follow the emergency vs non-emergency routing rules.",
+  "office_hours_flow_summary": "- Greet the caller, confirm how you can help, collect their name and phone number, determine if it is an emergency, and then either transfer or take a detailed message.",
+  "questions_or_unknowns": [
+    "Company name was not clearly identified in the transcript.",
+    "Services supported (e.g. HVAC, electrical, fire protection) were not clearly listed.",
+    "Emergency definition was not clearly described.",
+    "Emergency routing rules were not clearly described.",
+    "Non-emergency routing rules were not clearly described.",
+    "Call transfer rules were not clearly described.",
+    "Integration constraints were not clearly described.",
+    "Office-hours call flow summary was not clearly described.",
+    "After-hours call flow summary was not clearly described."
+  ],
+  "notes": ""
+}

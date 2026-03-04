@@ -1,0 +1,36 @@
+Onboarding Call Transcript - Acme HVAC
+
+Agent: Thanks for joining the onboarding call for Acme HVAC Services. I'd like to confirm a few details about your account.
+
+Owner: Sounds good.
+
+Agent: Let's start with business hours. Are they still Monday through Friday, 8 AM to 5 PM Eastern?
+
+Owner: Yes, but please add that we now take Saturday non-emergency calls from 9 AM to 1 PM Eastern. Emergencies on Saturday are handled the same way as other after-hours emergencies.
+
+Agent: Got it. Has your office address changed?
+
+Owner: No, the office address is still 123 Main Street, Springfield, New York 10001.
+
+Agent: Any updates to the services you support?
+
+Owner: We also added ductless mini-split installation and maintenance.
+
+Agent: Regarding emergencies, is the definition the same?
+
+Owner: Yes, same definition, but please also treat "water leaking from an indoor unit" as an emergency.
+
+Agent: How about routing rules?
+
+Owner: For emergency routing, during business hours and after hours, use the technician number 555-111-2222 just like before.
+Owner: For non-emergency calls during business hours, if the office doesn't pick up, we want the AI agent to try the office line one more time before taking a message.
+Owner: For after-hours non-emergency calls, take a detailed message and clearly tell the caller they will get a call back on the next business day.
+
+Agent: Any change to integration constraints?
+
+Owner: We just started using a basic CRM, but it's not integrated with your system yet. So keep the same rule: do not connect to external tools and just store the summary locally. We may integrate in the future.
+
+Agent: Anything else we should know?
+
+Owner: Yes, please mention in the script that technicians do not handle billing questions; those should always be left for the office during business hours.
+
